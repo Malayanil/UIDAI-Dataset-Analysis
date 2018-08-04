@@ -19,6 +19,7 @@ explode = (0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.2)
 
 plt.pie(sizes, autopct='%1.1f%%', explode=explode, startangle=0)
 plt.legend(labels=labels)
+plt.title('Registrars')
 plt.show()
 
 # Most Used Registrar: CSC e-Governance Services India Limited (2,09,771 Enrolled)
@@ -35,6 +36,7 @@ sizes = [100357,18101,16972,12910,12580,12114,11937,10808,9229,7537,228273]
 explode = (0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.2)
 plt.pie(sizes, autopct='%1.1f%%', explode=explode, startangle=180)
 plt.legend(labels=labels)
+plt.title('EnrolmentAgencies')
 plt.show()
 
 # Most Popular Enrollment Agency: CSC SPV (1,00,357 Entries)
@@ -51,6 +53,7 @@ sizes = [81776,69476,60485,37360,28659,24146,21196,19783,15755,12378,69805]
 explode = (0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.2)
 plt.pie(sizes, autopct='%1.1f%%', explode=explode, startangle=180)
 plt.legend(labels=labels)
+plt.title('States')
 plt.show()
 
 # Top State of Enrollment: Bihar (81776 Entries)
@@ -67,6 +70,7 @@ sizes = [292798,148013,500]
 explode = (0.1, 0.1, 0.2)
 plt.pie(sizes, autopct='%1.1f%%', explode=explode, startangle=180)
 plt.legend(labels=labels)
+plt.title('Gender')
 plt.show()
 
 # Male: 2,92798
@@ -84,7 +88,8 @@ sizes = [409275,27884,3669]
 explode = (0.1, 0.1, 0.2)
 plt.pie(sizes, autopct='%1.1f%%', explode=explode, startangle=180)
 plt.legend(labels=labels)
-#plt.show()
+plt.title('Enrollments Rejected')
+plt.show()
 
 
 X6 = X[['ResidentsProvidingEmail']].values
@@ -97,6 +102,7 @@ sizes = [422997,16763,1058]
 explode = (0.1, 0.1, 0.2)
 plt.pie(sizes, autopct='%1.1f%%', explode=explode, startangle=180)
 plt.legend(labels=labels)
+plt.title('Emails Provided')
 plt.show()
 
 
@@ -110,6 +116,7 @@ sizes = [112629, 267748,36068,24373]
 explode = (0.1, 0.1, 0.1, 0.2)
 plt.pie(sizes, autopct='%1.1f%%', explode=explode, startangle=180)
 plt.legend(labels=labels)
+plt.title('Mobile Numbers Provided')
 plt.show()
 
 
