@@ -69,7 +69,7 @@ Welcome ! This is a generalised Read Me file for the Aadhaar Enrollment Analysis
 
   a) For the First Objective:
 		
-		SELECT COUNT(*),Registrar FROM Test GROUP BY Registrar ORDER BY COUNT(*) DESC
+    SELECT COUNT(*),Registrar FROM Test GROUP BY Registrar ORDER BY COUNT(*) DESC
   
 We select the Registrar column and another column as counting the number of records from our table Test and group the output by the Registrar column and order them in descending order.
     
