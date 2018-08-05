@@ -1,12 +1,18 @@
 # UIDAI-Dataset-Analysis (Aadhaar Enrollment Analysis)
 
-Welcome ! This is a generalised Read Me file for the Aadhaar Enrollment Analysis.<br><br>Data Insights and Analysis: HiveQL<br>Visualization: Python 2.7.0
+Welcome ! This is a generalised Read Me file for the Aadhaar Enrollment Analysis.<br><br>
+<ul>
+	<li>Data Insights and Analysis: HiveQL</li>
+	<li>Visualization: Python 2.7.0</li>
+</ul>
 
 <b>Index: </b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Introduction<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Objectives and Results<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Code Explanation<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Graphical Visualization<br>
+<ol>
+	<li>Introduction</li>
+	<li>Objectives and Results</li>
+	<li>Code Explanation</li>
+	<li>Graphical Visualization</li>
+</ol>
 
 <b>1. Introduction: </b>
 
@@ -93,7 +99,14 @@ We select the District column and another column as counting the number of recor
 <b>4. Graphical Visualization: </b>                                              
 
 ![alt text](https://github.com/Malayanil/UIDAI-Dataset-Analysis/blob/master/pie_charts/combined.png)
-
-Starting from the top left Pie Chart, the first one titled <b>Registrars</b> shows the most prevalent Registrars of Aadhar Generation in this dataset.<br><br> The second Pie Chart titled <b>Enrollment Agencies</b> shows the most prevalent Enrollment Agencies of Aadhaar Generation in this dataset.<br><br> The third Pie Chart titled <b>Gender</b> shows the percentage of Male, Female and UnDeclared Genders enrolling themselves for Aadhaar Generation in this dataset.<br><br> The fourth Pie Chart titled <b>States</b> shows the dominant States whose people have enrolled themselves for the Aadhaar Generation in this dataset.<br><br> The fifth Pie Chart titled <b>Mobile Numbers Provided</b> shows the percentage of people providing their mobile numbers for Aadhaar Generation in this dataset.<br><br> The sixth Pie Chart titled <b>Emails Provided</b> shows the percentage of people providing their emails for Aadhaar Generation in this dataset.<br><br> The seventh Pie Chart titled <b>Enrollments Rejected</b> shows the percentage of people who have been rejected during the course of Aadhaar Generation for some reason in this dataset.<br><br>
+<ul>
+<li>Starting from the top left Pie Chart, the first one titled <b>Registrars</b> shows the most prevalent Registrars of Aadhar Generation in this dataset.</li> 
+<li>The second Pie Chart titled <b>Enrollment Agencies</b> shows the most prevalent Enrollment Agencies of Aadhaar Generation in this dataset.</li> 
+<li>The third Pie Chart titled <b>Gender</b> shows the percentage of Male, Female and UnDeclared Genders enrolling themselves for Aadhaar Generation in this dataset.</li> 
+<li>The fourth Pie Chart titled <b>States</b> shows the dominant States whose people have enrolled themselves for the Aadhaar Generation in this dataset.</li>
+<li>The fifth Pie Chart titled <b>Mobile Numbers Provided</b> shows the percentage of people providing their mobile numbers for Aadhaar Generation in this dataset.</li>
+<li>The sixth Pie Chart titled <b>Emails Provided</b> shows the percentage of people providing their emails for Aadhaar Generation in this dataset.</li>
+<li>The seventh Pie Chart titled <b>Enrollments Rejected</b> shows the percentage of people who have been rejected during the course of Aadhaar Generation for some reason in this dataset.</li>
+</ul>
 
                                                --End of Section Four--
