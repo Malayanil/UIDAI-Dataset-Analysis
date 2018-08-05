@@ -4,6 +4,13 @@ Welcome ! This is a generalised Read Me file for the Aadhaar Enrollment Analysis
 <ul>
 	<li>Data Insights and Analysis: HiveQL</li>
 	<li>Visualization: Python 2.7.0</li>
+	<li>Files and Folder:</li>
+	
+		UIDAI.csv -> The Dataset of 4,40,818 records downloaded from UIDAI data host site.
+		sql.sql -> The SQL file for our Dataset Analysis.
+		script.py -> The Python script for visualization Pie Charts.
+		pie_charts -> The folder containing the PNGs of the Pie Charts used here.
+	
 </ul>
 
 <b>Index: </b><br>
