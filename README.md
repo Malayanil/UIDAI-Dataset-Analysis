@@ -66,10 +66,8 @@ Welcome ! This is a generalised Read Me file for the Aadhaar Enrollment Analysis
 <b>3. Code Explanation: </b>
 
   We create a table named Test and load the 4,40,818 records into it and then run the queries to get our desired results.
-  
-	3.1 HiveQL: 
 
-	a) For the First Objective:
+  a) For the First Objective:
 		
 		SELECT COUNT(*),Registrar FROM Test GROUP BY Registrar ORDER BY COUNT(*) DESC
   
